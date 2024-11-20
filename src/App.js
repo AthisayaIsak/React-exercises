@@ -1,17 +1,12 @@
+// App.js
 import React from 'react';
-import Header from './components/Header';
-import BookList from './Components/BookList';
-import Footer from './components/Footer';
-import './App.css';
+import BasicForm from './Components/BasicForm';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <BookList />
-      </main>
-      <Footer />
+    <div>
+      <h1>User Feedback Form</h1>
+      <BasicForm />
     </div>
   );
 }
